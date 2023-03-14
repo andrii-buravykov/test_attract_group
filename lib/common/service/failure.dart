@@ -1,5 +1,5 @@
 import 'package:tesing/common/app_constants.dart';
-import 'package:tesing/home/domain/repositories/api_exception.dart';
+import 'package:tesing/common/service/api_exception.dart';
 
 class Failure {
   Failure([String? errorMessage])

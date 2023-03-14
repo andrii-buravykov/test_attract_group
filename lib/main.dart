@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tesing/home/presentation/screens/home_screen.dart';
+
+import 'holder/presentation/screens/holder_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      home: const HolderScreen(),
     );
   }
 }
